@@ -29,7 +29,6 @@ export default function App() {
     localStorage.setItem('contactsKey', JSON.stringify(contacts));
   }, [contacts]);
 
-
   const handleAddContact = ({ name, number }) => {
     const newContact = {
       name: name,
