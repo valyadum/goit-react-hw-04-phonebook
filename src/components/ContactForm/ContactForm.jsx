@@ -1,4 +1,4 @@
-import React, { useState , useEffect} from 'react';
+import React, { useState } from 'react';
 import css from './ContactForm.module.css'
 
 export default function ContactForm({onSubmitProps}){
